@@ -3,13 +3,15 @@
 class Genre
 {
     //attributi
-    public $genre;
+    public $name;
+    public $description;
 
 
-    public function __construct($_genre)
+    public function __construct($_name, $_description)
     {
 
-        $this->genre = $_genre;
+        $this->name = $_name;
+        $this->description = $_description;
 
     }
 }
