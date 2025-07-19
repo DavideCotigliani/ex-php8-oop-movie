@@ -2,6 +2,9 @@
 
 class Movie
 {
+    use Distribuzione; //utilizzo il trait Distribuzione;
+
+    //attributi
     public $titolo;
     public $anno;
     public $genre;

@@ -2,6 +2,7 @@
 
 class Genre
 {
+    //attributi
     public $genre;
 
 
