@@ -1,6 +1,6 @@
 <?php
 
-trait Distribuzione  //proprietà che si possono applicare a più classi
+trait Distribuzione  //proprietà che si può applicare a più classi
 {
     protected $distribuzione;
 
@@ -10,7 +10,7 @@ trait Distribuzione  //proprietà che si possono applicare a più classi
         if ($mostraDistribuzione == "Italia") {
             $this->distribuzione = $mostraDistribuzione;
         } else {
-            "Distribuzione diversa, non consentita";
+            $this->distribuzione = "Non per il mercato italiano";
         }
     }
 }
