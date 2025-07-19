@@ -7,13 +7,13 @@ class Movie
     //attributi
     public $titolo;
     public $anno;
-    public $genre;
+    public $genres = [];
 
-    public function __construct($_titolo, $_anno, Genre $_genre)
+    public function __construct($_titolo, $_anno, array $_genres)
     {
         $this->titolo = $_titolo;
         $this->anno = $_anno;
-        $this->genre = $_genre;
+        $this->genres = $_genres;
     }
 
     public function afterTwothousand() //metodo/funzione per capire se il titolo è dopo gli anni 2000
